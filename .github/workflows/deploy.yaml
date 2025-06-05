@@ -1,0 +1,12 @@
+name: "Hello World"
+on:
+  push:
+    branches:
+      - main
+jobs:
+    deploy-app:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Build java application"
+            - run: echo "Test java application"
+            - run: echo "Deploy java application"         
