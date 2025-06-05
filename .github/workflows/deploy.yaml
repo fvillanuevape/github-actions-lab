@@ -9,4 +9,5 @@ jobs:
         steps:
             - run: echo "Build java application"
             - run: echo "Test java application"
-            - run: echo "Deploy java application"         
+            - run: echo "Deploy java application"
+            - run: echo "This workflow runs on every push to the main branch"      
